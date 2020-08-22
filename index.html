@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Gallery</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/58ab0192c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <!-- Contains nav, hero image & header -->
+    <header>
+        <div class="wrapper">
+
+            <i class="fas fa-bars"></i>
+
+            <!-- Nav -->
+            <nav class="clearfix">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+ 
+            </nav>
+
+            <h1>Paint Gallery</h1>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- New Product Section -->
+        <section class="about">
+            <div class="wrapper clearfix">
+                <div class="imageContainer">
+                    <img src="./Images/image-6@2x.png" alt="">
+                </div>
+
+                <div class="textContainer">
+                    <h2>New product on the shelves</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magni, quasi aliquid nesciunt enim debitis perspiciatis cum quisquam inventore delectus autem voluptatum doloribus, modi corrupti perferendis quos! Possimus et, odio ipsum, facilis provident ipsam asperiores ducimus sed facere ea ullam nesciunt ad. Quod minus quisquam unde nobis ea dolores exercitationem! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, sed?
+                    </p>
+
+                    <button class="buttonOne">Read more</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Exhibition Section -->
+        <section class="exhibitions">
+            <div class="wrapper">
+                <h2>Latest exhibitions</h2>
+
+                <ul class="clearfix">
+                    <li><img src="./Images/gallery-image-1@2x.png" alt="Many paint strokes and splatters in bright colours viewed from a side angle"></li>
+                    <li><img src="./Images/gallery-image-3@2x.png" alt="An overhead shot of a white tarp with paint brushes, paint bottles and paint cans scattered around it"></li>
+                    <li><img src="./Images/gallery-image-2@2x.png" alt="An ultra zoomed in view of yellow, black, green and red paint on a canvas"></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Links Section -->
+        <section class="links">
+            <div class="wrapper">
+                <ul class="clearfix">
+                    <li>
+                        <i class="far fa-images"></i>
+                        <a href="#">Catalogue</a>
+                    </li>
+
+                    <li>
+                        <i class="far fa-calendar-alt"></i>
+                        <a href="#">Events</a>
+                    </li>
+
+                    <li>
+                        <i class="far fa-handshake"></i>
+                        <a href="#">Collaborations</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Blog / 4-square Section -->
+        <section class="blog clearfix">
+
+            <!-- Top right image -->
+            <img class="blogImageOne" src="./Images/right-image@2x.png" alt="An overhead shot of used paint brush heads splattered with paint">
+
+            <!-- Content in top left square -->
+            <div class="topLeftText">
+                <div class="wrapper">
+                    <h2>Finding the right brushes</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti animi accusamus sapiente? Aut, laboriosam quod eaque esse fuga, ea beatae, delectus perspiciatis molestiae impedit expedita. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, provident.</p>
+
+                    <button class="buttonTwo">Read more</button>
+                </div>
+            </div>
+
+            <!-- Bottom left image -->
+            <img class="blogImageTwo" src="./Images/left-image@2x.png" alt="An overhead shot of open paint cans in assorted colors with an arm dipping a paint brush in one can">
+
+            <!-- Content in bottom right square -->
+            <div class="bottomRightText">
+                <div class="wrapper">
+                    <h2>All kind of paints</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti animi accusamus sapiente? Aut, laboriosam quod eaque esse fuga, ea beatae, delectus perspiciatis molestiae impedit expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, commodi.</p>
+
+                    <button class="buttonTwo">Read more</button>
+                </div>
+            </div>      
+           
+        </section>
+
+        <!-- Bottom Nav -->
+        <section class="bottomNav">
+            <div class="wrapper clearfix">
+
+                <!-- Nav -->
+                <nav>
+                    <ul class="clearfix">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Newsletter -->
+                <div class="newsletter">
+                    <h3>Stay updated</h3>
+
+                    <p>Subscribe to our newsletter to stay updated.</p>
+
+                    <!-- Form -->
+                    <form action="#" method="#" class="emailSubscription clearfix" name="emailSubscription">
+
+                        <!-- Label omitted from design - Info below for screen readers -->
+                        <label for="email" class="sr-only">Provide your email address</label>
+
+                        <!-- Input field -->
+                        <input type="email" id="email" name="email" placeholder="email address">
+
+                        <!-- Submit Form Button  -->
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+
+                <!-- Contact -->
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p>info@email.com | 123 - 456 - 7890</p>
+                    <p>123 some road, Toronto, ON</p>
+                    <p>A5A 5A5, Canada</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="wrapper">
+            <div class="copyright">
+                <p>Copyright © 2019 HackerYou</p>
+                <p>Created at <a href="https://junocollege.com/">Juno College</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
